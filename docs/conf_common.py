@@ -16,6 +16,7 @@ import sys, os
 import re
 from subprocess import Popen, PIPE
 import shlex
+import importlib
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -23,6 +24,25 @@ import shlex
 sys.path.insert(0, os.path.abspath('..'))
 
 from local_util import run_cmd_get_output, copy_if_modified
+
+def setup_language_configuration():
+    # Determine the language from the environment variable, default to 'en'
+    language = os.getenv('READTHEDOCS_LANGUAGE', 'en')
+    
+    if language == 'zh_CN':
+        conf_module_path = 'zh_CN.conf'
+    else:
+        conf_module_path = 'en.conf'
+    
+    # Dynamically import the language-specific configuration module
+    conf_module = importlib.import_module(conf_module_path)
+    
+    # Import all variables and functions from the module into the current namespace
+    globals().update(vars(conf_module))
+    
+    return language
+
+language = setup_language_configuration()
 
 builddir = '_build'
 if 'BUILDDIR' in os.environ:
