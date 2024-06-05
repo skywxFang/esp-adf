@@ -9,7 +9,7 @@
 import sys
 import os
 sys.path.insert(0, os.path.abspath('..'))
-from docs.conf import *  # noqa: F401, F403 - need to make available everything from common
+from conf_common import *  # noqa: F401, F403 - need to make available everything from common
 from local_util import download_file_if_missing  # noqa: E402 - need to import from common folder
 
 # General information about the project.
