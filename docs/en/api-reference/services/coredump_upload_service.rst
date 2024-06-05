@@ -1,8 +1,6 @@
 Core Dump Upload Service
 ========================
 
-:link_to_translation:`zh_CN:[中文]`
-
 To investigate crashes in some sold devices, the backtrace is needed for analysis. The core dump upload service transmits the backtrace stored in the device partition over HTTP. To enable this feature, select ``ESP_COREDUMP_ENABLE_TO_FLASH``.
 
 

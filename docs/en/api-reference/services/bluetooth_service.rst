@@ -1,8 +1,6 @@
 Bluetooth Service
 =================
 
-:link_to_translation:`zh_CN:[中文]`
-
 The Bluetooth service is dedicated to interface with Bluetooth devices and provides support for the following protocols:
 
 * HFP (Hands-Free Profile): remotely controlling the mobile phone by the Hands-Free device and the voice connections between them

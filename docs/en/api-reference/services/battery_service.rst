@@ -1,7 +1,7 @@
 Battery Service
 ===============
 
-:link_to_translation:`zh_CN:[中文]`
+:link_to_translation:`zh_CN:[Chinese]`
 
 The battery service can monitor and manage battery voltage. You can access battery voltage and the events defined by :cpp:type:`battery_service_event_t` through callback functions.
 

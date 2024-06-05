@@ -1,6 +1,6 @@
 Espressif Audio Development Guide
 =================================
-:link_to_translation:`zh_CN:[中文]`
+:link_to_translation:`zh_CN:[Chinese]`
 
 This is the documentation for Espressif Audio Development Framework (ADF).
 
