@@ -1,7 +1,7 @@
 OTA Service
 ===========
 
-:link_to_translation:`zh_CN:[中文]`
+:link_to_translation:`zh_CN:[Chinese]`
 
 OTA service can upgrade firmware over the air (OTA). The firmware can be fetched from local files or the network.
 

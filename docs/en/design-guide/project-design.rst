@@ -1,7 +1,7 @@
 Project Design
 **************
 
-:link_to_translation:`zh_CN:[中文]`
+:link_to_translation:`zh_CN:[Chinese]`
 
 When designing a project with ability to process audio signals or audio data we typically consider a subset of the following components:
 

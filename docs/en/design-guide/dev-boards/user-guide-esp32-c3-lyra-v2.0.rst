@@ -2,7 +2,7 @@
 ESP32-C3-Lyra V2.0
 ===================
 
-:link_to_translation:`zh_CN:[中文]`
+:link_to_translation:`zh_CN:[Chinese]`
 
 This user guide will help you get started with ESP32-C3-Lyra V2.0 and will also provide more in-depth information.
 

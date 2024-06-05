@@ -1,7 +1,7 @@
 ESP32-LyraT V4.3 Getting Started Guide
 ======================================
 
-:link_to_translation:`zh_CN:[中文]`
+:link_to_translation:`zh_CN:[Chinese]`
 
 This guide provides users with functional descriptions, configuration options for ESP32-LyraT V4.3 audio development board, as well as how to get started with the ESP32-LyraT board. Check section `Other Versions of LyraT`_, if you have different version of this board.
 

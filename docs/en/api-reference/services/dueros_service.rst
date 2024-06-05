@@ -1,7 +1,7 @@
 DuerOS Service
 ==============
 
-:link_to_translation:`zh_CN:[中文]`
+:link_to_translation:`zh_CN:[Chinese]`
 
 The DuerOS service allows voice interaction with DuerOS.
 

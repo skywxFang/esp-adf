@@ -2,7 +2,7 @@
 ESP32-S3-Korvo-2 V3.0
 =====================
 
-:link_to_translation:`zh_CN:[中文]`
+:link_to_translation:`zh_CN:[Chinese]`
 
 This user guide will help you get started with ESP32-S3-Korvo-2 V3.0 and will also provide more in-depth information.
 

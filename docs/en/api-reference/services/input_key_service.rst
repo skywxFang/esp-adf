@@ -1,7 +1,7 @@
 Input Key Service
 =================
 
-:link_to_translation:`zh_CN:[中文]`
+:link_to_translation:`zh_CN:[Chinese]`
 
 The input key service provides GPIO input interrupts and ADC key functions in the form of events. For what common key functions are defined by the events for audio products, see :cpp:type:`input_key_user_id_t`.
 

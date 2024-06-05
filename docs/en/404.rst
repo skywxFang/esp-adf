@@ -2,7 +2,8 @@
 
 Page not Found
 ==============
-:link_to_translation:`zh_CN:[中文]`
+
+:link_to_translation:`zh_CN:[Chinese]`
 
 .. note::
 

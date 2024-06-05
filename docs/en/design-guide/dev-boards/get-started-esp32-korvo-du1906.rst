@@ -1,7 +1,7 @@
 
 ESP32-Korvo-DU1906
 ===================
-:link_to_translation:`zh_CN:[中文]`
+:link_to_translation:`zh_CN:[Chinese]`
 
 This user guide provides information on ESP32-Korvo-DU1906. 
 

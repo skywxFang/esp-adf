@@ -1,7 +1,7 @@
 Display Service
 ===============
 
-:link_to_translation:`zh_CN:[中文]`
+:link_to_translation:`zh_CN:[Chinese]`
 
 The display service defines enumeration values for some common display patterns in :cpp:type:`display_pattern_t`, with which you can set the corresponding patterns of LEDs or LED bars.
 

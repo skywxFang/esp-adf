@@ -1,7 +1,7 @@
 Audio Streams
 =============
 
-:link_to_translation:`zh_CN:[中文]`
+:link_to_translation:`zh_CN:[Chinese]`
 
 The Audio Stream refers to an :doc:`Audio Element <../framework/audio_element>` that is responsible for acquiring of audio data and then sending the data out after processing.
 
