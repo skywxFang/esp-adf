@@ -27,7 +27,7 @@ from local_util import run_cmd_get_output, copy_if_modified
 
 def setup_language_configuration():
     # Determine the language from the environment variable, default to 'en'
-    language = os.getenv('READTHEDOCS_LANGUAGE', 'en')
+    language = os.getenv('DOCS_LANGUAGE', 'en')
     
     if language == 'zh_CN':
         conf_module_path = 'zh_CN.conf'
