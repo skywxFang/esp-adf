@@ -26,6 +26,3 @@ python:
 submodules:
   include:
     - components/esp-adf-libs
-
-sphinx:
-  configuration: docs/en/conf.py
