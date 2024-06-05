@@ -1,7 +1,7 @@
 ESP32-LyraTD-MSC V2.2 Getting Started Guide
 ===========================================
 
-:link_to_translation:`zh_CN:[中文]`
+:link_to_translation:`zh_CN:[Chinese]`
 
 This guide provides users with functional descriptions, configuration options for ESP32-LyraTD-MSC V2.2 audio development board, as well as how to get started with the ESP32-LyraTD-MSC board.
 

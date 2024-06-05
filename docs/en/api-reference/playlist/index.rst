@@ -1,7 +1,7 @@
 Playlist
 ===========
 
-:link_to_translation:`zh_CN:[中文]`
+:link_to_translation:`zh_CN:[Chinese]`
 
 A playlist is a list of audio files that can be played back either sequentially or in a specified order.
 
