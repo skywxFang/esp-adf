@@ -16,6 +16,26 @@ import sys, os
 import re
 from subprocess import Popen, PIPE
 import shlex
+import importlib
+
+def setup_language_configuration():
+    # Determine the language from the environment variable, default to 'en'
+    language = os.getenv('DOCS_LANGUAGE', 'en')
+    
+    if language == 'zh_CN':
+        conf_module_path = 'zh_CN.conf'
+    else:
+        conf_module_path = 'en.conf'
+    
+    # Dynamically import the language-specific configuration module
+    conf_module = importlib.import_module(conf_module_path)
+    
+    # Import all variables and functions from the module into the current namespace
+    globals().update(vars(conf_module))
+    
+    return language
+
+language = setup_language_configuration()
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
