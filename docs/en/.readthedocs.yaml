@@ -28,4 +28,4 @@ submodules:
     - components/esp-adf-libs
 
 sphinx:
-  configuration: ./conf.py
+  configuration: docs/en/conf.py
